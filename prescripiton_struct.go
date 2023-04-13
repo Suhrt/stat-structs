@@ -25,4 +25,6 @@ type Prescription struct {
 	Order            *Order              `json:"order" bson:"order"`
 	DigitalSignature DigitalSignature   `json:"digital_signature" bson:"digital_signature"`
 	HtWt             HtWt               `json:"htw" bson:"htw"`
+	IsOld            bool               `json:"is_old" bson:"is_old"`
+	OldUrl           string             `json:"old_url" bson:"old_url"`
 }
