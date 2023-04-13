@@ -20,5 +20,6 @@ type Doctor struct {
 	ProfileComplete  bool               `json:"profile_complete" bson:"profile_complete"`
 	Membership       Membership         `json:"membership" bson:"membership"`
 	Account          Account            `json:"account" bson:"account"`
-	IsVerified bool `json:"is_verified" bson:"is_verified"`
+	IsVerified       bool               `json:"is_verified" bson:"is_verified"`
+	OtpKey           string             `json:"otp_key" bson:"otp_key"`
 }
