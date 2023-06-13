@@ -4,7 +4,6 @@ import "go.mongodb.org/mongo-driver/bson/primitive"
 
 type Customizations struct {
 	ID            primitive.ObjectID `bson:"_id,omitempty"`
-	StatId        string             `json:"stat_id" bson:"stat_id"`
 	Color         []int              `json:"color" bson:"color"`
 	PhoneNumber   bool               `json:"phone_number" bson:"phone_number"`
 	Email         bool               `json:"email" bson:"email"`
