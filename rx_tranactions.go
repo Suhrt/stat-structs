@@ -9,4 +9,5 @@ type RxTransactions struct {
 	Status string             `bson:"status"`
 	RxId   string             `bson:"rx_id"`
 	Amount int                `bson:"amount"`
+	Url    string             `bson:"url"`
 }
