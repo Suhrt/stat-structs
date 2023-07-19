@@ -6,4 +6,5 @@ type Login struct {
 	ID          primitive.ObjectID `bson:"_id,omitempty"`
 	PhoneNumber string             `json:"phone_number" bson:"phone_number"`
 	Password    string             `json:"password" bson:"password"`
+	StatId      string             `json:"stat_id" bson:"stat_id"`
 }
