@@ -26,6 +26,7 @@ type Patient struct {
 }
 
 type HtWt struct {
+	ID         primitive.ObjectID  `bson:"_id,omitempty"`
 	TimeStamp  primitive.Timestamp `json:"time_stamp" bson:"time_stamp"`
 	Height     string              `json:"height" bson:"height"`
 	Weight     string              `json:"weight" bson:"weight"`
