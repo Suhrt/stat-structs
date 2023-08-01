@@ -9,7 +9,6 @@ type Charges struct {
 	Name         string             `json:"name" bson:"name"`
 	Amount       string             `json:"amount" bson:"amount"`
 	Currency     string             `json:"currency" bson:"currency"`
-
 	Taxed        bool               `json:"taxed" bson:"taxed"`
 	TaxName      string             `json:"tax_name" bson:"tax_name"`
 	TaxPercent   string             `json:"tax_percent" bson:"tax_percent"`
