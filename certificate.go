@@ -11,7 +11,6 @@ type Certificate struct {
 	Date                    string             `json:"date" bson:"date"`
 	Doctor                  *Doctor            `json:"doctor,omitempty" bson:"doctor,omitempty"`
 	Patient                 *Patient           `json:"patient,omitempty" bson:"patient,omitempty"`
-	Signature               *DisplaySignature  `json:"signature,omitempty" bson:"signature,omitempty"`
 	DigitalSignature        DigitalSignature   `json:"digital_signature" bson:"digital_signature"`
 	Charges                 []Charges          `json:"charges" bson:"charges"`
 	Order                   *Order             `json:"order" bson:"order"`
