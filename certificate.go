@@ -14,7 +14,7 @@ type Certificate struct {
 	DigitalSignature        DigitalSignature   `json:"digital_signature" bson:"digital_signature"`
 	Charges                 []Charges          `json:"charges" bson:"charges"`
 	Order                   *Order             `json:"order" bson:"order"`
-	TemplateFields          []templateField    `json:"template_fields" bson:"template_fields"`
+	TemplateFields          []TemplateField    `json:"template_fields" bson:"template_fields"`
 	Title                   string             `json:"title" bson:"title"`
 	Type                    string             `json:"type" bson:"type"`
 	IncludePatientSignature bool               `json:"include_patient_signature" bson:"include_patient_signature"`

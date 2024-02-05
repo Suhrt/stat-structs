@@ -4,7 +4,6 @@ import "go.mongodb.org/mongo-driver/bson/primitive"
 
 type CertificateTemplate struct {
 	ID             primitive.ObjectID `bson:"_id,omitempty"`
-	Template       string             `json:"template" bson:"template"`
 	TemplateFields []TemplateField    `json:"template_fields" bson:"template_fields"`
 	Title          string             `json:"title" bson:"title"`
 	Type           string             `json:"type" bson:"type"`
