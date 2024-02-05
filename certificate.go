@@ -8,7 +8,6 @@ type Certificate struct {
 	DoctorId                string             `json:"doctor_id" bson:"doctor_id"`
 	PatientId               string             `json:"patient_id" bson:"patient_id"`
 	Password                string             `json:"password" bson:"password"`
-	Date                    string             `json:"date" bson:"date"`
 	Doctor                  *Doctor            `json:"doctor,omitempty" bson:"doctor,omitempty"`
 	Patient                 *Patient           `json:"patient,omitempty" bson:"patient,omitempty"`
 	DigitalSignature        DigitalSignature   `json:"digital_signature" bson:"digital_signature"`
