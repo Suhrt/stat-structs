@@ -15,5 +15,6 @@ type TemplateField struct {
 	Value string `json:"value" bson:"value"`
 	Title string `json:"title" bson:"title"`
 	Description string `json:"description" bson:"description"`
+	Required bool `json:"required" bson:"required"`
 }
 
