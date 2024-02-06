@@ -13,5 +13,7 @@ type TemplateField struct {
 	Name  string `json:"name" bson:"name"`
 	Type  string `json:"type" bson:"type"`
 	Value string `json:"value" bson:"value"`
+	Title string `json:"title" bson:"title"`
+	Description string `json:"description" bson:"description"`
 }
 

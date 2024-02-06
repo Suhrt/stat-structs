@@ -16,5 +16,5 @@ type Certificate struct {
 	Type                     string             `json:"type" bson:"type"`
 	IncludePatientSignature  bool               `json:"include_patient_signature" bson:"include_patient_signature"`
 	IncludePatientAddress    bool               `json:"include_patient_address" bson:"include_address"`
-	IncludePatientIdentifier bool             `json:"include_patient_identifier" bson:"include_patient_identifier"`
+	IncludePatientIdentifier bool               `json:"include_patient_identifier" bson:"include_patient_identifier"`
 }
