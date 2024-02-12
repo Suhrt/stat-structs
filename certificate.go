@@ -4,7 +4,7 @@ import "go.mongodb.org/mongo-driver/bson/primitive"
 
 type Certificate struct {
 	ID                      primitive.ObjectID `bson:"_id,omitempty"`
-	CertifcateId            string             `json:"certificate_id" bson:"certifcate_id"`
+	CertificateId            string             `json:"certificate_id" bson:"certificate_id"`
 	DoctorId                string             `json:"doctor_id" bson:"doctor_id"`
 	PatientId               string             `json:"patient_id" bson:"patient_id"`
 	Password                string             `json:"password" bson:"password"`
