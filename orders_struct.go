@@ -13,4 +13,6 @@ type Order struct {
 	Fee             int64              `json:"fee" bson:"fee"`
 	PayedOut        string             `json:"payedOut" bson:"payedOut"`
 	RefundId        string             `json:"refundId" bson:"refundId"`
+	EnableOnlinePay bool               `json:"enableOnlinePay" bson:"enableOnlinePay"`
+	AccessBeforePay bool               `json:"accessBeforePay" bson:"accessBeforePay"`
 }
