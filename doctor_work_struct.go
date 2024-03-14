@@ -18,16 +18,16 @@ type Timing struct {
 }
 
 type Work struct {
-	ID          primitive.ObjectID `bson:"_id,omitempty"`
-	WorkId      string             `json:"work_id" bson:"work_id"`
-	Name        string             `json:"name" bson:"name"`
-	Address     string             `json:"address" bson:"address"`
-	Designation string             `json:"designation" bson:"designation"`
-	PhoneNumber string             `json:"phone_number" bson:"phone_number"`
-	Latitude    string            `json:"latitude" bson:"latitude"`
-	Longitude   string            `json:"longitude" bson:"longitude"`
-	IsOnline    bool               `json:"is_online" bson:"is_online"` //if practice is online
-	PlaceId     string             `json:"place_id" bson:"place_id"`
-	Timings     []Timing           `json:"timings" bson:"timings"`
-	IsActive    bool               `json:"is_active" bson:"is_active"` //for logo templates
+	ID            primitive.ObjectID `bson:"_id,omitempty"`
+	WorkId        string             `json:"work_id" bson:"work_id"`
+	Name          string             `json:"name" bson:"name"`
+	Address       string             `json:"address" bson:"address"`
+	Designation   string             `json:"designation" bson:"designation"`
+	PhoneNumber   string             `json:"phone_number" bson:"phone_number"`
+	Latitude      string             `json:"latitude" bson:"latitude"`
+	Longitude     string             `json:"longitude" bson:"longitude"`
+	IsOnline      bool               `json:"is_online" bson:"is_online"` //if practice is online
+	PlaceId       string             `json:"place_id" bson:"place_id"`
+	Timings       []Timing           `json:"timings" bson:"timings"`
+	IsActive      bool               `json:"is_active" bson:"is_active"` //for logo templates
 }

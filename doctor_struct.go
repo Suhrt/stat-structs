@@ -12,7 +12,6 @@ type Doctor struct {
 	Qualifications   string             `json:"qualifications" bson:"qualifications"`
 	MedicalCouncil   string             `json:"medical_council" bson:"medical_council"`
 	RegNo            string             `json:"reg_no" bson:"reg_no"`
-	Address          string             `json:"address" bson:"address"`
 	Work             []Work             `json:"work" bson:"work"`
 	TaxInfo          string             `json:"tax_info" bson:"tax_info"`
 	IsDoctor         bool               `json:"is_doctor" bson:"is_doctor"`
