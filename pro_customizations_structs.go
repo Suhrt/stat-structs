@@ -15,6 +15,7 @@ type Customizations struct {
 	LogoUrl       string             `json:"logo_url" bson:"logo_url"`
 	LetterHeadUrl string             `json:"letter_head_url" bson:"letter_head_url"`
 	FooterUrl     string             `json:"footer_url" bson:"footer_url"`
+	WaterMarkUrl  string             `json:"water_mark_url" bson:"water_mark_url"`
 	Disclaimer    string             `json:"disclaimer" bson:"disclaimer"`
 	RawLetterHead string             `json:"raw_letter_head_url" bson:"raw_letter_head_url"`
 }
