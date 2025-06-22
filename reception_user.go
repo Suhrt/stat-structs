@@ -9,7 +9,7 @@ type Receptionist struct {
 	Name           string             `json:"name" bson:"name"`
 	Email          string             `json:"email" bson:"email"`
 	Phone          string             `json:"phone" bson:"phone"`
-	OrganisationID primitive.ObjectID `json:"organisation_id" bson:"organisation_id"`
+	OrganisationID string             `json:"organisation_id" bson:"organisation_id"`
 	PasswordHash   string             `json:"-" bson:"password_hash"` // Bcrypt hash of the password
 	Designation    string             `json:"designation" bson:"designation"`
 	Status         string             `json:"status" bson:"status"`
