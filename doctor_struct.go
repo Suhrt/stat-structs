@@ -22,4 +22,5 @@ type Doctor struct {
 	Account          Account            `json:"account" bson:"account"`
 	IsVerified       bool               `json:"is_verified" bson:"is_verified"`
 	IsOldUser        bool               `json:"is_old_user" bson:"is_old_user"`
+	OrganisationId   string             `json:"organisation_id" bson:"organisation_id"`
 }
