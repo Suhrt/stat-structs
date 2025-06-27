@@ -6,7 +6,7 @@ type Appointment struct {
 	ID             string    `json:"id" bson:"_id"`
 	PatientID      string    `json:"patient_id" bson:"patient_id"`
 	PatientName    string    `json:"patient_name" bson:"patient_name"`
-	PatientAge     int       `json:"patient_age" bson:"patient_age"`
+	PatientAge     string    `json:"patient_age" bson:"patient_age"`
 	PatientSex     string    `json:"patient_sex" bson:"patient_sex"`
 	DoctorName     string    `json:"doctor_name" bson:"doctor_name"`
 	DoctorID       string    `json:"doctor_id" bson:"doctor_id"`
