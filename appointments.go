@@ -8,6 +8,7 @@ type Appointment struct {
 	PatientName    string    `json:"patient_name" bson:"patient_name"`
 	PatientAge     string    `json:"patient_age" bson:"patient_age"`
 	PatientSex     string    `json:"patient_sex" bson:"patient_sex"`
+	PatientPhone   string    `json:"patient_phone" bson:"patient_phone"`
 	DoctorName     string    `json:"doctor_name" bson:"doctor_name"`
 	DoctorID       string    `json:"doctor_id" bson:"doctor_id"`
 	Date           time.Time `json:"date" bson:"date"`
